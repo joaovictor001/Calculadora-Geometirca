@@ -354,17 +354,17 @@ public class Main {
 
                                 switch (escolha_calculo){
                                     case 1->{
-                                        Esfera
-                                        System.out.println("Volume: "+ piramide.calcualteVolumePiramide());
+                                        Esfera esfera = new Esfera(raio);
+                                        System.out.println("Volume: "+ esfera.calArea());
                                     }
                                     case 2->{
-                                        Piramide piramide = new Piramide(apotema,arestadabase,altura);
-                                        System.out.println("Volume: "+ piramide.calculateAreaSuperficial());
+                                        Esfera esfera = new Esfera(raio);
+                                        System.out.println("Volume: "+ esfera.calVolume());
                                     }
                                     case 3 ->{
-                                        Piramide piramide = new Piramide(apotema,arestadabase,altura);
-                                        System.out.println("Volume: "+ piramide.calcualteVolumePiramide());
-                                        System.out.println("Área: " + piramide.calculateAreaSuperficial());
+                                        Esfera esfera = new Esfera(raio);
+                                        System.out.println("Volume: "+ esfera.calArea());
+                                        System.out.println("Área: "+ esfera.calVolume());
                                     }
                                 }
                             }
