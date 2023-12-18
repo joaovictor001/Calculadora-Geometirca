@@ -3,7 +3,7 @@ package Espaciais;
 public class Cubo {
     public  double lado;
 
-    Cubo(double lado) {
+    public Cubo(double lado) {
         this.lado = lado;
     }
 

@@ -4,7 +4,7 @@ public class Hexagonal {
 
     public double lado;
 
-    Hexagonal(double lado){
+    public Hexagonal(double lado){
         this.lado = lado;
 
 

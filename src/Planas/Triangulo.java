@@ -3,7 +3,7 @@ package Planas;
 public class Triangulo {
     public double lado;
 
-    Triangulo(double lado){
+    public Triangulo(double lado){
         this.lado = lado;
 
     }

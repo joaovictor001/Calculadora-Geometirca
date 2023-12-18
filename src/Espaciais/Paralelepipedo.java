@@ -3,11 +3,11 @@ package Espaciais;
 public class Paralelepipedo {
     public  double comprimento, altura, largura;
 
-    Paralelepipedo (){
+    public Paralelepipedo(double altura, double largura, double comprimento){
 
-        this.altura = altura;
-        this.largura = largura;
-        this.comprimento = comprimento;
+        this.altura = this.altura;
+        this.largura = this.largura;
+        this.comprimento = this.comprimento;
 
     }
 

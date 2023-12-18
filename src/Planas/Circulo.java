@@ -4,7 +4,7 @@ public class Circulo {
         public double  raio;
         final double PI = Math.PI;
 
-         Circulo (double raio){
+         public Circulo(double raio){
             this.raio = raio;
 
 
